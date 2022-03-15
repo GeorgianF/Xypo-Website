@@ -31,8 +31,8 @@ body {
 }
 
 .square {
-    height: 12px;
-    width: 12px;
+    height: 15px;
+    width: 15px;
     display: inline-block;
     background-color: #f67c92;
     margin: 15px 0;
@@ -116,5 +116,36 @@ nav ul li a {
     top: 35px;
     z-index: 2;
     cursor: pointer;
+}
 
+/* about section */
+
+#about {
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-left-col {
+    flex-basis: 50%;
+}
+
+.about-left-col img {
+    width: 100%;
+}
+
+.about-right-col {
+    flex-basis: 50%;
+    text-align: right;
+}
+
+.about-text {
+    max-width: 500px;
+    margin-right: 100px;
+    display: inline-block;
+}
+
+p {
+    font-size: 14px;
 }
